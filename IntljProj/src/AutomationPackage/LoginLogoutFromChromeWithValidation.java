@@ -21,6 +21,8 @@ public class LoginLogoutFromChromeWithValidation {
 	        oBrowser.manage().window().maximize();
 
 	        //2. navigate the actiTime URL
+            System.out.println("I am super");
+
 	        oBrowser.navigate().to("http://localhost/login.do");
 	        Thread.sleep(2000);
 
