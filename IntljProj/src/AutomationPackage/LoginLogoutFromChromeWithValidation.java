@@ -16,12 +16,14 @@ public class LoginLogoutFromChromeWithValidation {
 	public static void testScriptOne(){
 	    WebDriver oBrowser = null;
 	    try{
+
+            System.out.println("Program to check login and logout to ActiTime");
 	        //1. Open browser
 	        oBrowser = new ChromeDriver();
 	        oBrowser.manage().window().maximize();
 
 	        //2. navigate the actiTime URL
-            System.out.println("I am super");
+
 
 	        oBrowser.navigate().to("http://localhost/login.do");
 	        Thread.sleep(2000);
